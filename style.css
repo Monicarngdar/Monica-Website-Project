@@ -32,7 +32,7 @@ h4 {
 }
     
 
-.column {
+.portfolio-column {
     float: left;
     width: 50%;
     padding: 60px;
@@ -40,7 +40,7 @@ h4 {
     margin-bottom: 5px;
 }
 
-.column img {
+.portfolio-column img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -50,7 +50,7 @@ h4 {
     
 }
 
-.column a:hover img {
+.portfolio-column a:hover img {
     opacity: 10;
     filter: brightness(70%);
 }
@@ -72,6 +72,19 @@ a{
     text-decoration: none;
 }
 
+
+.modalimage{
+    padding-left: 16%;
+}
+
+.imagetitle {
+    font-family: 'Gill Sans';
+    font-size: 20px;
+     color: black;
+     padding: 5px;
+     text-align: center;
+     font-weight: 300;
+}
 
 /*Landscape Page*/
 

@@ -52,10 +52,10 @@
      <input type="text" id="lastName" placeholder="Last Name" required>
     </div>
      <input type="email" id="emailAdress" placeholder="email@gmail.com" required>
-     <input type="tel" id="mobileNumber" placeholder="Mobile Number" pattern="[0-9]" inputmode="numeric" title="Enter Mobile Number" required>
+     <input type="tel" id="mobileNumber" placeholder="Mobile Number" pattern="[0-9]+$" inputmode="numeric" title="Enter Mobile Number" required>
      <textarea name="message" id="message" placeholder="Write a Message..." required ></textarea>
-     <button type="submit" id="submit" >Submit</button>
-     <button type="button" id="cancel" onclick="cancelForm()">Cancel</button>
+     <button type="submit" id="submit" class="submitbtn" >Submit</button>
+     <button type="button" id="cancel" class="cancelbtn" onclick="cancelForm()">Cancel</button>
     </form>
  </div>
 </div>

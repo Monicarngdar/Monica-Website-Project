@@ -384,6 +384,10 @@ opacity: 1;
     margin-top: 30px;
 }
 
+.colorblack{
+    color: black;
+}
+
 /*Sizing for Responsive Design*/
 
 @media only screen and (max-width:620px){

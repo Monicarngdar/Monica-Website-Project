@@ -2,6 +2,7 @@
 //Modal Content
 var currentIndex = 0;
 function showModal(img){
+  if (window.innerWidth <= 640 ) return 
     var modal = document.getElementById("myModal");
     document.getElementById("modal_image").src=img.src;
     document.getElementById("modal_image").alt=img.alt;

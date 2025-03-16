@@ -58,7 +58,7 @@ h4 {
 
 
 .portfolio-gallery p{
-    font-family: 'Gill Sans';
+    font-family: sans-serif;
     font-size: 20px;
      color: black;
      padding: 5px;
@@ -80,7 +80,7 @@ a{
 
 
 .caption-portfolio{
-    font-family: 'Gill Sans';
+    font-family: sans-serif;
     font-size: 18px;
     text-align: center;
 }

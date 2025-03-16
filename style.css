@@ -83,6 +83,7 @@ a{
     font-family: sans-serif;
     font-size: 18px;
     text-align: center;
+
 }
 
 
@@ -278,28 +279,6 @@ justify-content: space-between;
 gap: 10px;
 }
 
-/* Submit and Cancel Button - When user hovers the colours change */
-
-.submitbtn {
-    background-color: #00ff40;
-    color: black;
-    font-weight: bold;
-}
-
-.submitbtn:hover{
-background-color: #00ff4071;
-}
-
-
-.cancelbtn{
-    background-color: #E63946;
-    color: black;
-    font-weight: bold;
-}
-
-.cancelbtn:hover{
-    background-color: #e639475e;
-}
     
 /*Modal*/
 .modal {

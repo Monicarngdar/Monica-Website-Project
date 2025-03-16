@@ -217,13 +217,12 @@ h6{
 display: flex;
 background-color: black;
 align-items: center;
-
 }
+
+
 
 .image-container{
 flex: 1;
-max-width: 100%;
-
 }
 
 .image-container img{

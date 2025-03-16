@@ -374,3 +374,20 @@ opacity: 1;
     right: 0;
     border-radius: 3px 0 0 3px;
 }
+
+
+
+/*Footer*/
+.MWfooter{
+    background-color: white ;
+    color: black;
+    margin-top: 30px;
+}
+
+/*Sizing for Responsive Design*/
+
+@media only screen and (max-width:620px){
+    .portfolio-column, .landscape-gallery .column, .flower-gallery .column, .pets-gallery .column, .bee-gallery .column  {
+        width: 100%
+    }
+}

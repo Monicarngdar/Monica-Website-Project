@@ -77,14 +77,23 @@ a{
     padding-left: 16%;
 }
 
-.imagetitle {
+
+
+.caption-portfolio{
     font-family: 'Gill Sans';
-    font-size: 20px;
-     color: black;
-     padding: 5px;
-     text-align: center;
-     font-weight: 300;
+    font-size: 18px;
+    text-align: center;
 }
+
+
+/*Title of portfolio page*/
+
+.portfolio-column p{
+    font-weight: bold;
+}
+
+
+
 
 /*Landscape Page*/
 

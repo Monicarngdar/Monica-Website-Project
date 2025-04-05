@@ -39,14 +39,14 @@ function modal(){
   const image = document.querySelectorAll("myModal");
 }
 
-function prev(){
+function prev(){ //prev button 
   var img = document.getElementById ('image' + (currentIndex - 1));
   if (img != undefined) {
   showModal (img);
   };
 }
 
-function next(){
+function next(){ //next button
 
   var img = document.getElementById ('image' + (currentIndex + 1));
   if (img != undefined) {

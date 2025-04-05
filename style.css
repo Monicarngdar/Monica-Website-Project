@@ -214,7 +214,6 @@ h6{
 
 /*About Page*/
 .about-page{
-display: flex;
 background-color: black;
 align-items: center;
 }
@@ -226,18 +225,23 @@ flex: 1;
 }
 
 .image-container img{
-    width: auto;
+    width: 100%;
     height: auto;
 
 }
+.about-content{
+ padding-right: 30px;
 
+}
 .about-content h1{
     color: white;
     font-family: sans-serif;
+    padding: 15px;
 }
 .about-content p {
     color: white;
     font-family: sans-serif;
+    padding: 15px;
     
    
 }

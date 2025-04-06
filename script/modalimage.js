@@ -14,6 +14,7 @@ function showModal(img){
 
   }
 
+  //landscape modal
   function showModallandscape(img){
     if (window.innerWidth <= 640 ) return //disabled modal on small screens
       var modal = document.getElementById("myModal");
@@ -52,5 +53,20 @@ function next(){ //next button
   if (img != undefined) {
   showModal (img);
   };
-  
+}
+
+//landscape prev and next 
+function prevlandscape(){ //prev button 
+  var img = document.getElementById ('image' + (currentIndex - 1));
+  if (img != undefined) {
+  showModallandscape (img);
+  };
+}
+
+function nextlandscape(){ //next button
+
+  var img = document.getElementById ('image' + (currentIndex + 1));
+  if (img != undefined) {
+  showModallandscape (img);
+  };
 }

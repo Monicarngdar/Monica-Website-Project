@@ -1,4 +1,4 @@
-/* Photography Main Page Carousel*/ 
+/* Photography Main Page Carousel Boostrap*/ 
 .carousel-inner img{
     width: 100%;
     height: 800px;
@@ -26,6 +26,7 @@ h4 {
     
 }
 
+/*removes scroll bar on side and bottom*/
 .portfolio-gallery{
     overflow-x: hidden;
     overflow-y: hidden;
@@ -40,6 +41,7 @@ h4 {
     margin-bottom: 5px;
 }
 
+/*image transition faded effect*/
 .portfolio-column img {
     height: 100%;
     width: 100%;
@@ -56,7 +58,7 @@ h4 {
 }
 
 
-
+/*image caption*/
 .portfolio-gallery p{
     font-family: sans-serif;
     font-size: 20px;
@@ -93,16 +95,15 @@ a{
     font-weight: bold;
 }
 
-
-
-
-/*Landscape Page*/
-
+/*title for the pages*/
 h6{
     font-family: 'Gill Sans';
     text-align: center;
 }
 
+
+/*Landscape Page*/
+/*removes scroll bar on the side and bottom*/
 .landscape-gallery {
     overflow-x: hidden;
     overflow-y: hidden;
@@ -129,6 +130,7 @@ h6{
 }
 
 /*Flower Page*/
+/*removes scroll bar on the side and bottom*/
 
 .flower-gallery {
     overflow-x: hidden;
@@ -157,6 +159,7 @@ h6{
 
 
 /*Pets Page*/
+/*removes scroll bar on the side and bottom*/
 
 .pets-gallery {
     overflow-x: hidden;
@@ -184,7 +187,7 @@ h6{
 }
 
 /*Bee page*/
-
+/*removes scroll bar on the side and bottom*/
 .bee-gallery {
     overflow-x: hidden;
     overflow-y: hidden;
@@ -322,6 +325,7 @@ gap: 10px;
     text-align: center;
 }
 
+/*Fixed filter issue on these pages*/
 .modal-show .flower-gallery img:hover , 
 .modal-show .pets-gallery img:hover , 
 .modal-show .bee-gallery img:hover {

@@ -6,15 +6,17 @@
 const mobileNumberInput = document.getElementById('mobileNumber');
 
 
-//Sumbit
 
 
+
+//Submit
 function submitForm() {
-alert('Thank you for your submission');
+    document.getElementById("contactAlert").classList.remove('d-none'); //remove the hiding class of  the alert
+    document.getElementById("contactAlert").classList.add('d-block'); //show the alert
+    document.getElementById ('contact-form').reset();
+    return false;
+    }
 
-document.getElementById ('contact-form').reset();
-return false;
-}
 
 
 //Cancel

@@ -45,7 +45,12 @@
   <!--Contact-->
   <div class="contact-page">
  <div class="contact-container">
-    <form id="contact-form" onsubmit="return submitForm();">
+
+  <form id="contact-form" onsubmit="return submitForm();">
+    <div class="alert alert-success d-none" role="alert" id="contactAlert">
+   Thank you for your submission!
+    </div>
+
       <div class="names-style">
      <input type="text" id="firstName" placeholder="First Name" required>
      <input type="text" id="lastName" placeholder="Last Name" required>

@@ -259,16 +259,20 @@ flex: 1;
     justify-content: center;
     text-align: center;
 }
+
+
 .contact-container {
     padding: 10px;
     margin: 10px;
     border: 2px solid #474747;
     width: 700px;
-    height: 400px;
+    height: 100%;
     max-width: 100%;
     border-radius: 4px;
     box-sizing: border-box;
 }
+
+
 
 .contact-container input,
 .contact-container textarea {

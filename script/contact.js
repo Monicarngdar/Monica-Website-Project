@@ -1,13 +1,6 @@
 
-
-
-
 //Mobile Number
 const mobileNumberInput = document.getElementById('mobileNumber');
-
-
-
-
 
 //Submit
 function submitForm() {
@@ -18,10 +11,12 @@ function submitForm() {
     }
 
 
-
 //Cancel
 function cancelForm (){
+    document.getElementById("contactAlert").classList.remove('d-block'); 
+    document.getElementById("contactAlert").classList.add('d-none'); 
     document.getElementById ('contact-form').reset();
+
 }
 
 

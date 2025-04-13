@@ -16,12 +16,16 @@ function showModal(img){
 
   //landscape modal
   function showModallandscape(img){
+    currentIndex = parseInt(img.id.slice(5));
     if (window.innerWidth <= 640 ) return //disabled modal on small screens
       var modal = document.getElementById("myModal");
       document.getElementById("modal_image").src=img.src; //replacing the image source of the modal img
       document.getElementById("modal_image").alt=img.alt; // placing the alt tag for the modal tag
-      document.getElementById("modal_h6").innerHTML=img.alt;
-      currentIndex = parseInt(img.id.slice(5));
+      //var altext = document.getElementById("altimage"+ currentIndex).innerHTML;
+      document.getElementById("modal_h6").innerHTML=img.title;
+
+     
+
       modal.style.display = "block";
     
     document.body.classList.add('modal-show');
